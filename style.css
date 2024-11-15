@@ -68,6 +68,26 @@ button{
     color: #982424;
 }
 
+@media (max-width: 280px) {
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .equal {
+        background-color: #e03c0a;
+    }
+
+    .oper {
+        color: aqua;
+    }
+
+    .del {
+        color: #982424;
+    }
+}
 
 
 
